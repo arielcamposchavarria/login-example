@@ -27,7 +27,7 @@ function App() {
   const [apiUrl, setApiUrl] = useState('http://localhost')
 
   const apiOptions = [
-    { value: 'https://backendhotelt-o1e2.onrender.com', label: '🌐 Producción (Render)' },
+    { value: 'https://backendhotelt-cs0j.onrender.com', label: '🌐 Producción (Render)' },
     { value: 'http://localhost', label: '💻 Local (Docker - Puerto 80)' },
     { value: 'http://localhost:8000', label: '💻 Local (Artisan - Puerto 8000)' },
     { value: 'http://127.0.0.1', label: '💻 Local (127.0.0.1 - Puerto 80)' },
